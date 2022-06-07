@@ -1,0 +1,145 @@
+table{
+    padding-top: 10px;
+    font-size: 20px;
+}
+table {
+margin: 0 0 2rem 0;
+width: 94%;
+font-family: 'Hahmlet';
+}
+table tbody tr {
+    border: solid 1px #ffffff;
+    border-left: 0;
+    border-right: 0;
+}
+    table thead tr:nth-child(2n + 1) {
+        background-color: rgba(255, 255, 255, 0.075);
+    }
+    table tbody tr:nth-child(2n + 1) {
+        background-color: rgba(255, 255, 255, 0.075);
+    }
+    table tfoot tr:nth-child(2n + 1) {
+        background-color: rgba(255, 255, 255, 0.075);
+    }
+    table thead tr:first-child{
+        font-size: 1.2em;
+    }
+    table tbody tr:first-child{
+        font-size: 1.2em;
+    }
+    table tfoot tr:first-child{
+        font-size: 1.2em;
+    }
+
+table td {
+    padding: 0.75em 0.75em;
+}
+
+table th {
+    color: #ffffff;
+    font-size: 0.9em;
+    font-weight: 600;
+    padding: 0.4em 0.75em 0.4em 0.75em;
+    text-align: left;
+}
+
+table thead {
+    border-bottom: solid 2px #ffffff;
+}
+
+table tfoot {
+    border-top: solid 2px #ffffff;
+}
+a{
+    font-style:normal;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+#zoom{
+  font-style:normal;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  margin-left: 75%;
+}
+#aboutimg{
+    border-radius: 8px;
+    box-shadow: 3px 3px 4px gray;
+}
+button {
+    padding: 0px;
+    border: 0px;
+    font-size: 20px;
+    color: white;
+    background-color: transparent;
+    font-family: 'Hahmlet',cursive;
+    cursor: pointer;
+    text-align: left;
+  }
+  .modal-graduate,.modal-poster,.modal-forum{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .modal-graduate .bgGraduate {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+  .modal-poster .bgPoster{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+  .modal-forum .bgForum{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+  .modalBox {
+    position: absolute;
+    margin-left: 20px;
+    background: url(../images/pic01.jpg) center center/cover no-repeat;
+    border-radius: 5%;
+    color: white;
+    font-size: 20px;
+    width: 450px;
+    height: 600px;
+    padding: 15px;
+  }
+  .modalBox::-webkit-scrollbar{
+    display: none;
+  }
+  .modalBox button {
+    display: block;
+    background: transparent;
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+    margin-left: 420px;
+    font-size: 15px;
+    padding: 0;
+  }
+  .hidden {
+    display: none;
+  }
+  .closeBtnGraduate,.closeBtnGraduate,.closeBtnForum{
+      position:relative;
+  }
+  img{
+    border-radius: 5%;
+    align-items: center;
+    margin-left: 20px;
+  }
+  h1{
+    margin-left: 20px;
+  }
+  a#zoom{
+    margin-left: 75%;
+  }

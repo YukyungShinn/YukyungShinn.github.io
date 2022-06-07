@@ -1,0 +1,28 @@
+div.wrapper{
+    width: 500px;
+    height: 500px;
+    background-color: rgba(182, 182, 182, 0.315);
+    align-items: center;
+    text-align: center;
+    font-size: 40px;
+    margin-left: 120px;
+    margin-right: 120px;
+    font-family: 'Hahmlet',cursive;
+
+}
+input{
+    width: 400px;
+    height: 40px;
+    margin-bottom: 20px;
+    font-size: 28px;
+    font-family: 'Hahmlet',cursive;
+    border: 3px solid white;
+    background-color: rgba(253, 252, 252, 0.568);
+}
+button#btn{
+    font-size: 32px;
+    font-family: 'Hahmlet',cursive;
+    border: 3px solid white;
+    background-color: transparent;
+    color: white;
+}

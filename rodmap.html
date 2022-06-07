@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hahmlet:wght@200;300;600&display=swap" rel="stylesheet">
+<title>ShinYukyung : 개발자 로드맵</title>
+<link rel="stylesheet" href="css/basic.css">
+<link rel="stylesheet" href="css/rodmap.css">
+</head>
+<body   class="fade-in-box">
+    <div id="container">
+        <header>
+
+        </header>
+        <section id="content">
+            <h1 id="h1">Backend Roadmap</h1>
+            <div class="usecolor">
+                <p id="important">매우 중요 </p>
+                <p id="change">대체가능 </p>
+                <p id="subservient">중요도 낮음</p><br>
+                <p id="ing">학습중</p>
+                <p id="hmm"> &nbsp;&nbsp;기초만 알고있음</p><br>
+                <p id="end">어느정도 알고있음</p>
+            </div>
+            <p id="sub">* 위에서부터 순차대로 진행하는 것을 권장.</p>
+            <p id="sub"><a href="images/backend.png">💾 클릭시 출처 문서로 이동합니다</a></p>
+            <div class="wrapper">
+                <details>
+                    <summary id="important">인터넷</summary>
+                    <div class="tpt end" id="important">인터넷의 작동원리</div>
+                    <div class="tpt end" id="important">HTTP란?</div>
+                    <div class="tpt ing" id="important">브라우저와 그 작동원리</div>
+                    <div class="tpt" id="important">DNS와 그 작동원리</div>
+                    <div class="tpt ing" id="important">도메인 이름이란?</div>
+                    <div class="tpt" id="important">호스팅이란?</div>
+                </details>
+                <details>
+                    <summary id="important">프론트엔드 기본 지식</summary>
+                    <div class="tpt end" id="important">HTML</div>
+                    <div class="tpt end" id="important">CSS</div>
+                    <div class="tpt ing" id="important">Javascript</div>
+                </details>
+                <details>
+                    <summary id="important">OS에 대한 전반적인 지식</summary>
+                    <div class="tpt" id="important">터미널 사용법</div>
+                    <div class="tpt end" id="important">OS의 일반적인 작동 원리</div>
+                    <div class="tpt" id="important">프로세스 관리</div>
+                    <div class="tpt hmm" id="important">스레드와 동시성</div>
+                    <div class="tpt" id="important">메모리 관리</div>
+                    <div class="tpt" id="important">프로세스 간 통신</div>
+                    <div class="tpt hmm" id="important">입출력(I/O) 관리</div>
+                    <div class="tpt" id="important">POSIX 기초 - stdin, stdout, stderr, pipes </div>
+                    <div class="tpt" id="important">터미널 기본명령 - grep, awk, sed, lsof, curl, wget, tail, head, less, find, ssh, kill</div>
+                    <div class="tpt ing" id="important">네트워크 기본 개념</div>
+                </details>                
+                <details>
+                    <summary>언어 배우기</summary>
+                    <div class="tpt end">Java</div>
+                    <div class="tpt">C#</div>
+                    <div class="tpt">PHP</div>
+                    <div class="tpt">Rust</div>
+                    <div class="tpt">Go</div>
+                    <div class="tpt ing" id="important">Javascript</div>
+                    <div class="tpt hmm">Python</div>
+                    <div class="tpt">Ruby</div>
+                </details>
+                <details>
+                    <summary>버전 관리 시스템 / <strong>Git 기본 사용법</strong> / 저장소 호스팅 서비스 / <strong>GitHub</strong>,GitLab,Bitbucket </summary>
+                </details>
+                <details>
+                    <summary>관계형 데이터베이스</summary>
+                    <div class="tpt" id="important">PostgreSQL</div>
+                    <div class="tpt">MySQL</div>
+                    <div class="tpt">MariaDB</div>
+                    <div class="tpt hmm">MS SQL</div>
+                    <div class="tpt end">Oracle</div>
+                </details>
+                <details>
+                    <summary>더 깊은 데이터베이스 지식</summary>
+                    <div class="tpt">ORM</div>
+                    <div class="tpt">ACID</div>
+                    <div class="tpt">트랜잭션</div>
+                    <div class="tpt">N+1 문제</div>
+                    <div class="tpt">데이터베이스 정규화</div>
+                    <div class="tpt">인덱스와 그 작동원리</div>
+                    <div class="tpt" id="subservient">데이터 레플리케이션</div>
+                    <div class="tpt" id="subservient">샤딩전략</div>
+                    <div class="tpt" id="subservient">CAP 이론</div>
+                </details>
+                <details>
+                    <summary>NoSQL 데이터베이스</summary>
+                    <div class="tpt" id="important">MongoDB</div>
+                    <div class="tpt">RethinkDB</div>
+                    <div class="tpt">CouchDB</div>
+                    <div class="tpt">DynomoDB</div>
+                </details>
+                <details>
+                    <summary>API</summary>
+                    <div class="tpt" id="subservient">HATEOAS</div>
+                    <div class="tpt" id="subservient">오픈 API 명세와 Swagger</div>
+                    <div class="tpt" id="important">인증
+                        <div class="tpt" id="subservient">쿠키기반</div>
+                        <div class="tpt" id="important">OAuth</div>
+                        <div class="tpt" id="important">Basic 인증</div>
+                        <div class="tpt" id="important">토큰 인증</div>
+                        <div class="tpt" id="important">JWT</div>
+                        <div class="tpt" id="subservient">OpenID</div>
+                        <div class="tpt" id="subservient">SAML</div>
+                    </div>
+                    <div class="tpt" id="important">REST</div>
+                    <div class="tpt ing" id="important">JSON API</div>
+                    <div class="tpt" id="subservient">SOAP</div>
+                    <div class="tpt" id="important">gRPC</div>
+                </details>
+                <details>
+                    <summary>캐시</summary>
+                    <div class="tpt" id="important">CDN</div>
+                    <div class="tpt">서버사이드
+                        <div class="tpt" id="important">Redis</div>
+                        <div class="tpt">Memcoched</div>
+                    </div>
+                    <div class="tpt" id="important">클라이언트 사이드</div>
+                </details>
+                <details>
+                    <summary>웹 보안지식</summary>
+                    <div class="tpt" id="important">해시 알고리즘
+                        <div class="tpt" id="important">MD5와 이를 사용하지 않는 이유</div>
+                        <div class="tpt" id="important">SHA 함수군</div>
+                        <div class="tpt" id="important">scrypt</div>
+                        <div class="tpt" id="important">bcrypt</div>
+                    </div>
+                    <div class="tpt" id="important">
+                        <div class="tpt" id="important">HTTPS</div>
+                        <div class="tpt" id="important">CORS</div>
+                        <div class="tpt" id="important">콘텐츠 보안 정책(SCP)</div>
+                        <div class="tpt" id="important">SSL/TLS</div>
+                        <div class="tpt" id="important">OWASP 보안 취약점</div>
+                    </div>
+                </details>
+                <details>
+                    <summary>테스트</summary>
+                    <div class="tpt" id="important">통합(integration) 테스트</div>
+                    <div class="tpt" id="important">단위(unit) 테스트</div>
+                    <div class="tpt" id="important">기능(functional) 테스트</div>
+                </details>
+                <details>
+                    <summary>CI / CD</summary>
+                </details>
+                <details>
+                    <summary>개발,설계 원칙</summary>
+                    <div class="tpt" id="subservient">GOF 디자인 패턴</div>
+                    <div class="tpt" id="subservient">도메인 주도 설계(DDD)</div>
+                    <div class="tpt" id="subservient">테스트 주도 개발(TDD)</div>
+                    <div class="tpt" id="important">SOLID</div>
+                    <div class="tpt" id="important">KISS</div>
+                    <div class="tpt" id="important">YAGNI</div>
+                    <div class="tpt" id="important">DRY</div>
+                </details>
+                <details>
+                    <summary>아키텍처 패턴</summary>
+                    <div class="tpt" id="important">모놀리식 애플리케이션</div>
+                    <div class="tpt" id="important">마이크로서비스</div>
+                    <div class="tpt" id="important">SOA</div>
+                    <div class="tpt" id="subservient">CQRS와 이벤트 소싱</div>
+                    <div class="tpt" id="important">서버리스</div>
+                </details>
+                <details>
+                    <summary id="subservient">메시지 브로커</summary>
+                    <div class="tpt" id="important">RabbitMQ</div>
+                    <div class="tpt">Kafka</div>
+                </details>
+                <details>
+                    <summary>컨테이너화 대 가상화</summary>
+                    <div class="tpt" id="important">Docker</div>
+                    <div class="tpt" id="subservient">rkt</div>
+                    <div class="tpt" id="subservient">LXC</div>
+                </details>
+                <details>
+                    <summary id="subservient">GraphQL</summary>
+                    <div class="tpt" id="important">Apollo</div>
+                    <div class="tpt">Relay Modern</div>
+                </details>
+                <details>
+                    <summary id="subservient">그래프 데이터베이스</summary>
+                    <div class="tpt" id="subservient">Neo4j</div>
+                </details>
+                <details>
+                    <summary id="subservient">웹소켓</summary>
+                </details>
+                <details>
+                    <summary id="subservient">웹 서버</summary>
+                    <div class="tpt" id="important">Nginx</div>
+                    <div class="tpt">Apache</div>
+                    <div class="tpt">Coddy</div>
+                    <div class="tpt">MS IIS</div>
+                </details>
+                <details>
+                    <summary id="important">확장성 있는 구축
+                        <div>제품의 지속 가능성을 위해 알아두고 주의해야 할 일반적인 주제</div>
+                    </summary>
+                    <div class="tpt" id="important">마이그레이션 전략</div>
+                    <div class="tpt" id="important">수평 확장 대 수직 확장</div>
+                    <div class="tpt" id="important">관측 가능성을 고려한 구축
+                        <div>문제가 발생했을 때 문제를 디버깅하고 해결하는 데 도움이 되는 메트릭 로그와 관측 가능한 항목들</div>
+                    </div>
+                    <div class="tpt" id="important">완화(mitigation) 전략
+                        <ul>
+                            <li>Graceful</li>
+                            <li>Degradation</li>
+                            <li>Throttling</li>
+                            <li>Backpressure</li>
+                            <li>Loadshifting</li>
+                            <li>Circuit Breaker</li>
+                        </ul>
+                    </div>
+                    <div class="tpt">차이 이해하기
+                        <ul>
+                            <li>Instrumentation</li>
+                            <li>Monitoring</li>
+                            <li>Telemetry</li>
+                        </ul>
+                    </div>
+                </details>
+            </div>
+
+        </section>
+
+        <aside>
+            <nav>
+                <ul class="navi">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="interests.html">Interests</a></li>
+                    <li><a href="rodmap.html"><strong>Roadmap</strong></li>
+                    <li><a href="sign.html">Sign</a></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <footer id="footer">
+            <br><br>
+            <p id="footer">&lt;Copyright 2022. <strong>Shin Yu Kyung</strong>. All rights reserved.&gt;</p>
+        </footer>
+    </div>
+            <!-- BG -->
+            <div id="bg">
+             </div>
+
+            <!-- Scripts -->
+</body>
+</html>

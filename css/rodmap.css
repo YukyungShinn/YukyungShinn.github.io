@@ -1,0 +1,90 @@
+#h1{
+    margin-left: 20px;
+    font-size: 40px;
+}
+.mainbox{
+    border: 1px solid white;
+    display:block;
+    margin: 8px;
+    font-size: 20px;
+    color:gainsboro;
+    font-weight: 600;
+}
+#important.mainbox{
+    color: white;
+}
+#subservient.mainbox{
+    color:gray;
+}
+details { margin:10px 45px 10px 25px; }
+details > summary {font-weight: 600; font-size:24px; color:gainsboro; border: 3px solid white; padding:10px; outline:0; border-radius:5px; cursor:pointer; transition:background 0.5s; text-align:left; box-shadow: 2px 2px 4px gray;}
+summary#important{font-weight: 600; color: white;}
+summary#subservient{font-weight: 600; color: rgb(78, 78, 78);}
+details > summary::-webkit-details-marker { border: 3px solid white; color:#fff; background-size:contain; transform:rotate3d(0, 0, 1, 90deg); transition:transform 0.25s;}
+details[open] > summary::-webkit-details-marker { transform:rotate3d(0, 0, 1, 180deg);}
+details[open] > summary { border: 3px solid white;}
+details[open] > summary ~ * { animation:reveal 0.5s;}
+.tpt { font-weight:600; border: 3px solid white; color:rgb(224, 224, 224); margin:10px 20px 0px 20px; padding:5px 10px; line-height:25px; border-radius:5px; box-shadow: 1px 1px 2px gray;}
+.tpt#important{color: white;}
+.tpt#subservient{color:rgb(78, 78, 78);}
+.tpt.hmm{
+    text-decoration: line-through wavy;
+}
+.tpt.ing{
+    text-decoration: underline;
+}
+.tpt.end{
+    text-decoration: line-through solid;
+}
+@keyframes reveal {
+    from { opacity:0; transform:translate3d(0, -30px, 0); }
+    to { opacity:1; transform:translate3d(0, 0, 0); }
+}
+.usecolor{
+    margin-left: 500px;
+}
+p#ing{
+    display:inline;
+    text-decoration: underline;
+    font-weight: 600;
+}
+p#hmm{
+    display:inline;
+    text-decoration: line-through wavy;
+    font-weight: 600;
+}
+p#end{
+    display:inline;
+    text-decoration: line-through solid;
+    font-weight: 600;
+}
+p#change{
+    display:inline;
+    color: gainsboro;
+    font-weight: 600;
+    font-size: 19px;
+}
+p#important{
+    color: white;
+    font-weight: 600;
+    display:inline;
+    font-size: 19px;
+}
+p#subservient{
+    color:rgb(78, 78, 78);
+    font-weight: 600;
+    display:inline;
+    font-size: 19px;
+}
+p#sub{
+    font-weight: 200;
+    font-size: 18px;
+    margin-left: 35px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+a{
+    font-style:normal;
+    color: white;
+    text-decoration: none;
+}

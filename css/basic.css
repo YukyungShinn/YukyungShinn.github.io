@@ -1,0 +1,204 @@
+body {
+    background: #1b1f22;
+}
+
+div,
+section,
+aside,
+footer {
+    padding: 10px;
+}
+
+div#container {
+    background-image: url(../images/bg.jpg);
+    width: 1024px;
+    width: 960px;
+    margin: 0 auto;
+    overflow: hidden;
+    color: white;
+    overflow: hidden;
+}
+
+header {
+    height: 0px;
+    font-family: 'Hahmlet', cursive;
+}
+
+nav {
+    /* border: 1px solid red; */
+    float: right;
+    transform: translateY(-10px);
+    font-family: 'Hahmlet', cursive;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+nav ul li {
+    list-style: none;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 26px;
+}
+
+nav ul li a:hover {
+    font-family: 'Hahmlet';
+    font-weight: 600;
+}
+
+section#content {
+    float: left;
+    width: 820px;
+    height: 600px;
+    font-family: 'Hahmlet', cursive;
+    overflow: overlay;
+}
+
+section#content::-webkit-scrollbar {
+    display: none;
+}
+
+#logo {
+    width: 150px;
+    border: 3px solid white;
+    border-radius: 50%;
+    align-items: center;
+    overflow: hidden;
+}
+
+[name=p1] {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 60px;
+}
+
+[name=p2] {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+[name=p3] {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 20px;
+}
+
+.tile p {
+    transform: translateX(-360px);
+}
+
+.tile a {
+    transform: translateX(-360px);
+    opacity: 0.3;
+}
+
+.transition {
+    transition-duration: 0.5s;
+    opacity: 0.3;
+}
+
+.tile:hover .transition {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+aside {
+    float: right;
+    width: 100px;
+    min-height: 600px;
+}
+
+footer {
+    /* border: 1px solid red; */
+    clear: both;
+    text-align: center;
+    padding-bottom: 30px;
+    font-family: 'Hahmlet', cursive;
+}
+
+footer h3 {
+    text-align: left;
+}
+
+body {
+    overflow: hidden;
+    opacity: 0;
+    transition: opacity .65s .15s
+}
+
+body.reveal {
+    opacity: 1;
+    overflow-y: auto
+}
+
+body.hidden {
+    opacity: 0
+}
+
+.fade-in-box {
+    display: inline-block;
+    padding: 10px;
+    animation: fadein 2s;
+    -moz-animation: fadein 2s;
+    /* Firefox */
+    -webkit-animation: fadein 2s;
+    /* Safari and Chrome */
+    -o-animation: fadein 2s;
+    /* Opera */
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadein {
+
+    /* Firefox */
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadein {
+
+    /* Safari and Chrome */
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes fadein {
+
+    /* Opera */
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}

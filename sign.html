@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hahmlet:wght@200;300;600&display=swap" rel="stylesheet">
+<title>ShinYukyung : 회원가입</title>
+<link rel="stylesheet" href="css/basic.css">
+<link rel="stylesheet" href="css/about.css">
+<link rel="stylesheet" href="css/sign.css">
+</head>
+<body class="fade-in-box">
+    <div id="container">
+        <header>
+
+        </header>
+        <section id="content">
+            <div class="logo">
+            </div>
+            <div class="content">
+                <div class="inner">
+                    <button><a href="sign_login.html" id="login">로그인 페이지로 이동</a></button>
+                </div>
+            </div>
+            <div class="wrapper">
+                <h1 align="center" style="font-size:50px;"><b>SIGN UP</b></h1>
+                <form action="javascript:saveIdPwd();" name="signupFrm">
+                <table id="enroll">
+                    <tbody>
+                    <tr>
+                      <th>아이디<span class="req">*</span></th>
+                      <td>
+                        <input type="text" name="userId" id="userId" /> <br>아이디는 영소문자로 시작, 숫자1개이상포함, 4-12글자
+                      </td>
+                    </tr>
+                    <tr>
+                      <th>비밀번호<span class="req">*</span></th>
+                      <td>
+                        <input type="password" name="pwd" id="pwd" /> 
+                        <br> 비밀번호는 숫자, 영소문자, 특수문자(!@#$%^&*) 포함 8-15글자
+                      </td>
+                    </tr>
+                    <tr>
+                      <th>비밀번호확인</th>
+                      <td>
+                        <input type="password" id="pwdCheck" />
+                      </td>
+                    </tr>
+                    <tr>
+                      <th>이름<span class="req">*</span>
+                      </th>
+                      <td>
+                        <input type="text" name="userName" id="userName" />
+                        <br>이름은 한글 2~4글자
+                      </td>
+                    </tr>
+                    <tr>
+                      <th>이메일<span class="req">*</span></th>
+                      <td>
+                        <input type="email" name="email" id="email" />
+                        <br>양식 ) ____@_._ 
+                      </td>
+                    </tr>
+                    <tr>
+                      <th>직업</th>
+                      <td>
+                        <select name="job" id="job">
+                          <option value="개발자">개발자</option>
+                          <option value="직장인">직장인</option>
+                          <option value="취준생">취준생</option>
+                          <option value="학생">학생</option>
+                        </select>
+                      </td>
+                    </tr>
+                    </tbody>
+                    <tfoot>
+                    <tr>
+                      <td colspan="2" class="btn-wrapper">
+                        <input type="submit" value="가입" />&nbsp;
+                        <input type="reset" value="초기화" />
+                      </td>
+                    </tr>
+                    </tfoot>
+                  </table>
+                </form>
+            </div>
+            <table id="sign-list">
+                <thead>
+                    <tr>
+                        <th>No.</th>
+                        <th>아이디</th>
+                        <th>이메일</th>
+                        <th>이름</th>
+                        <th>직업</th>
+                        <th>가입일자</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </section>
+
+        <aside>
+            <nav>
+                <ul class="navi">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="interests.html">Interests</a></li>
+                    <li><a href="rodmap.html">Roadmap</li>
+                    <li><a href="sign.html"><strong>Sign</strong></a></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <footer id="footer">
+            <br><br>
+            <p>&lt;Copyright 2022. <strong>Shin Yu Kyung</strong>. All rights reserved.&gt;</p>
+        </footer>
+    </div>
+    <!-- BG -->
+    <div id="bg">
+        </div>
+
+    <!-- Scripts -->
+    <script src="js/login.js"></script>
+</body>
+</html>
